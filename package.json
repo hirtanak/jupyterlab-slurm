@@ -64,7 +64,7 @@
     "react-dom": "^17.0.0",
     "uuid": "^8.1.0",
     "yarn": "^1.22.10",
-    "yarn-deduplicate": "^1.1.1"
+    "yarn-deduplicate": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
