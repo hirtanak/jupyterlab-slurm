@@ -1,7 +1,7 @@
 {
   "name": "jupyterlab-slurm",
   "version": "3.0.0",
-  "description": "A JupyterLab extension to interface with the Slurm workload manager.",
+  "description": "A JupyterLab extension to interface with the Azure CycleCloud Slurm template.",
   "keywords": [
     "jupyter",
     "jupyterlab",
@@ -11,12 +11,12 @@
     "HPC"
   ],
   "style": "style/index.css",
-  "homepage": "https://github.com/NERSC/jupyterlab-slurm",
+  "homepage": "https://github.com/hirtanak/jupyterlab-slurm",
   "bugs": {
-    "url": "https://github.com/NERSC/jupyterlab-slurm/issues"
+    "url": "https://github.com/hirtanak/jupyterlab-slurm/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Jon Hays, William Krinsman, NERSC",
+  "author": "Jon Hays, William Krinsman, NERSC + Hiroshi Tanaka",
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
     "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
@@ -25,7 +25,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NERSC/jupyterlab-slurm.git"
+    "url": "https://github.com/hirtanak/jupyterlab-slurm.git"
   },
   "scripts": {
     "build": "tsc",
